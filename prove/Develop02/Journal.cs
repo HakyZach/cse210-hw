@@ -23,6 +23,14 @@ class Journal{
     }
 
     public void JournalLoad(){
+        // string filename = "myFile.txt";
+        // string[] lines = System.IO.File.ReadAllLines(filename);
+
+        // foreach (string line in lines)
+        // {
+        //     string[] parts = line.Split("||");
+
+        // }
 
     }
 
