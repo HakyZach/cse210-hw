@@ -6,8 +6,8 @@ static void Main(string[] args)
     {
         bool c = true;
         Journal myJournal = new Journal();
-        Entry userEntry = new Entry();  
-        string fileName = "Journal.txt";
+        EntryL userEntry = new EntryL();  
+        //string fileName = "Journal.txt";
 
         while (c){
 
@@ -35,15 +35,15 @@ static void Main(string[] args)
             {
                 case "1":
                     Console.WriteLine("New Entry");
-                    userEntry.NewEntry();
+                    myJournal.AddNewEntry();
                     break;
 
                 case "2":
-                    Console.WriteLine("Open Journal");
-                    FileInfo fInfo = new FileInfo(fileName);
-                    if(fInfo.Exists){
-                        myJournal.JournalRead();
-                    }
+                    Console.WriteLine("Display Journal");
+                    //FileInfo fInfo = new FileInfo(fileName);
+                    //if(fInfo.Exists){
+                        myJournal.JournalShow();
+                    //}
                     break;
 
                 case "3":
