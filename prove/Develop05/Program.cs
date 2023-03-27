@@ -36,7 +36,7 @@ class Program
                     break;
 
                 case "2":
-                    
+                    Console.WriteLine("display goals");
                     break;
 
                 case "3":
@@ -47,7 +47,7 @@ class Program
                     break;
 
                 case "5":
-                
+                    Console.WriteLine("record goals");
                     break;
                 
                 case "6":
